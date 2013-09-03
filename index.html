@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<!-- Yahoo Pipes - http://pipes.yahoo.com/pipes/pipe.run?_id=http://pipes.yahoo.com/pipes/pipe.run?_id=311e78677fe7b41877e10ef76a57e3c3&_render=json
+	<!-- Yahoo Pipes - http://pipes.yahoo.com/techfish/tfmultirss&_render=json
 	-->
 
 
@@ -51,7 +51,7 @@
 	<script type="text/Javascript">
 		$('#rssdata').ready(function()
 			{
-			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=311e78677fe7b41877e10ef76a57e3c3&_render=json&_callback=?';
+			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=93db83740c555a216963651ef20b5afd&_render=json&_callback=?';
 			$.getJSON(pipe_url,function(data)
 			{
 			$(data.value.items).each(function(index,item)
