@@ -2,29 +2,61 @@
 <head>
 
 	<!-- Google font -->
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Roboto+Condensed' rel='stylesheet' type='text/css'>
 
 	<title>TechFish News on Technology, Games, and More!</title>
 
 	<!-- Meta tags -->
-	<meta name="google-site-verification" content="IcfcLC5Tk9HLwWGCNLXW5mFDOh6-FCSfpHteYSTUA08" />
-	<meta name="bitly-verification" content="bcda513783ef"/>
-	<meta name="description" content="Technology & Gaming News Aggregator">
-	<meta name="keywords" content="News,Technology,Gaming,Linux,Android,Tech,Nerd,Geek,HTML,CSS,XML,JavaScript">
-	<meta name="author" content="MSM Corp.">
 	<meta charset="UTF-8">
+
+	<!-- Spider Stuff -->
+	<meta name="author" content="MSM Corp." />
+	<meta name="distribution" content="article">
+	<meta name="revisit-after" content="1 days">
+	<meta name="date" content="September 1, 2013" />
+	<meta name="robots" content="index,follow" content="all" />
+	<meta name="DC.title" content="TechFish News on Technology, Games, and More!" />
+	<meta name="copyright" content="TechFish is a registered trademark of TechFish™ />
+	<meta name="description" content="Technology & Gaming News Aggregator - TechFish brings all your favorite tech websites into one feed. TechFish.tk Fishing for tech." />
+	<meta name="keywords" content="TechFish, News, Technology, Gaming, Linux, Android, Tech, Nerd, Geek, HTML  CSS , XML, JavaScript,nsw-x6tch4qcptu47scb4ehixxc3fjeji1uhm8y9q8xc0dshf7p1iy2o72vecde9ry83x-89es347snirx8jodn5f2vd042-jfvu29bsc-p9x0nadvzarege2pj6swoo4013" />
+
+	<!-- Social Relay Stuff -->
+	<meta property=”og:type” content=”article”/>
+	<meta property=”og:url” content=”http://techfish.tk”/>
+	<meta property=”og:title” content=”TechFish News on Technology, Games, and More! - TechFish.tk”/>
+	<meta property=”og:description” content=”Technology & Gaming News Aggregator - TechFish brings all your favorite tech websites into one feed. TechFish.tk Fishing for tech.”/>
+
+	<!-- Profile Relay Stuff -->
+	<meta property=”fb:admins” content=”techfishnews”/>
+	<link rel=”author” href=”https://plus.google.com/b/102711600257850203055/“/>
+
+	<!-- Twitter Stuff -->
+	<meta name=”twitter:card” content=”summary”>
+	<meta name=”twitter:url” content=”http://techfish.tk”>
+	<meta name=”twitter:title” content=”Technology & Gaming News Aggregator”>
+	<meta name=”twitter:image” content=”https://si0.twimg.com/profile_images/378800000393315761/63b5cda14038c89fe4d280c8b303273d_bigger.png”>
+	<meta name=”twitter:description” content=”TechFish – TechFish brings all your favorite tech websites into one feed. TechFish.tk Fishing for tech.”>
 	
+	<!-- Verification Stuff -->
+	<meta name="bitly-verification" content="bcda513783ef" />
+	<meta name="google-site-verification" content="IcfcLC5Tk9HLwWGCNLXW5mFDOh6-FCSfpHteYSTUA08" />
+	<meta name="norton-safeweb-site-verification" content="x6tch4qcptu47scb4ehixxc3fjeji1uhm8y9q8xc0dshf7p1iy2o72vecde9ry83x-89es347snirx8jodn5f2vd042-jfvu29bsc-p9x0nadvzarege2pj6swoo4013" />
+
 	<!-- Favicon Stuff -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 	<!-- jQuery from Google -->
 	<script src= "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
-
+	
 	<!-- Stylesheet linker code -->
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="http://techfish.tk/css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="http://techfish.tk/css/custom.css" rel="stylesheet" type="text/css">
+	<link href="http://techfish.tk/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<!-- Yahoo Pipes - http://pipes.yahoo.com/techfish/tfmultirss&_render=json
+	<!-- Yahoo Pipes - http://pipes.yahoo.com/pipes/pipe.run?_id=http://pipes.yahoo.com/pipes/pipe.run?_id=311e78677fe7b41877e10ef76a57e3c3&_render=json
 	-->
 
 
@@ -51,7 +83,7 @@
 	<script type="text/Javascript">
 		$('#rssdata').ready(function()
 			{
-			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=93db83740c555a216963651ef20b5afd&_render=json&_callback=?';
+			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=311e78677fe7b41877e10ef76a57e3c3&_render=json&_callback=?';
 			$.getJSON(pipe_url,function(data)
 			{
 			$(data.value.items).each(function(index,item)
