@@ -1,14 +1,20 @@
-/*Page*/
-
-
-/*Body font*/
+*Body font*/
 body
 {
-background-color:#005252;
-font-family: 'Droid Sans', sans-serif;
-text-decoration: none;
+    background-color:#003549;
+    bgcolor:#003549
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+    height: 100%;
+    width: 50%;
 }
-
+html
+{
+    background-color:#003549;
+    bgcolor:#003549
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+}
 
 /*Title font styling*/
 ul.rss-title
@@ -28,7 +34,7 @@ ul.rss-title li
 
 ul.rss-title a
 {
-    background: #005252;
+    background: #003549;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -66,13 +72,13 @@ ul.rss-title a
     background: #ddd;
     color: #333;
     text-decoration: none;
-    border-bottom: 1px solid #005252;
+    border-bottom: 1px solid #003549;
 }
 
 #rssdata ul.rss-items a:hover
 {
     background: #FFFFFF;
-    color: #005252;
+    color: #003549;
     text-decoration: none;
 } 
 
@@ -80,15 +86,15 @@ ul.rss-title a
 /*RSS Footer styling*/
 ul.rss-footer
 {
-    background: #005252;
-    color: #005252;
+    background: #003549;
+    color: #003549;
     margin: 0;
     padding: 0;
     display: block;
     padding: 0;
     text-decoration: none;
     text-align: center;
-    border-bottom: 1px solid #005252;
+    border-bottom: 1px solid #003549;
     font-size: 1em
 }
 
@@ -102,28 +108,28 @@ ul.rss-footer li
 
 ul.rss-footer a
 {
-    background: #005252;
-    color: #005252;
+    background: #003549;
+    color: #003549;
     margin: 0;
     padding: 0;
     display: block;
     padding: 0;
     text-decoration: none;
     text-align: center;
-    border-bottom: 1px solid #005252;
+    border-bottom: 1px solid #003549;
     font-size: 1em
 } 
-
+/*Contact and Terms*/
 #footer-bar {
       width:100%;
-      background-color:#005252;
+      background-color:#003549;
       background-position:top center;
       background-repeat:no-repeat;
       text-align: right;
       margin-bottom: 10px;
 }
 #footer-bar ul {
-        width: 950px;
+        width: 850px;
         height: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -138,4 +144,36 @@ ul.rss-footer a
 }
 #footer-bar li a {
     color: #FFFFFF;
+}
+
+/*Others*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+
+.break-word {
+		word-wrap: break-word;
 }
