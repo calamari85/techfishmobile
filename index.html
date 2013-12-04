@@ -54,7 +54,188 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
 	
 	<!-- Style code -->
-	<link href="http://m.techfish.tk/style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+/*Body font*/
+* {
+max-width:960px;
+}
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.page {
+    min-height:100%;
+    position:relative;
+}
+.header {
+    padding:0px;
+}
+.content{
+    padding:10px;
+    padding-bottom:45px;   /* Height+padding(top and botton) of the footer */
+    text-align:justify; 
+ }
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:15px;   /* Height of the footer */
+    padding:10px 0; /*paddingtop+bottom 20*/
+}
+
+.content {
+    height:100%; // IE HACK
+}
+body
+{
+    height:100%; 
+    max-width:500px;
+    margin:0; 
+    padding:0;
+    background-color:#003549;
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+/*Title font styling*/
+ul.rss-title
+{
+    margin: 0;
+    padding: 0;
+    height: 33px;
+}
+
+ul.rss-title li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+ul.rss-title a
+{
+    background: #003549;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: strong;
+    border-bottom: 0px solid #fff;
+    font-size: 1.5em
+} 
+
+
+/*RSS Feed styling*/
+#rssdata ul.rss-items
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Sans', serif;
+}
+
+#rssdata ul.rss-items li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+#rssdata ul.rss-items a
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 2px 2px;
+    background: #ddd;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #003549;
+}
+
+#rssdata ul.rss-items a:hover
+{
+    background: #FFFFFF;
+    color: #003549;
+    text-decoration: none;
+} 
+
+
+/*RSS Footer styling*/
+ul.rss-footer
+{
+    background: #003549;
+    color: #003549;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #003549;
+    font-size: 1em
+}
+
+ul.rss-footer li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-indent:1px;
+}
+
+ul.rss-footer a
+{
+    background: #003549;
+    color: #003549;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #003549;
+    font-size: 1em
+} 
+/*Contact and Terms*/
+#footer-bar {
+      width:100%;
+      background-color:#003549;
+      background-position:top center;
+      background-repeat:no-repeat;
+      text-align: right;
+      margin-bottom: 10px;
+}
+#footer-bar ul {
+        width: 850px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 0px;
+        top: 0px;
+}
+#footer-bar li {
+        display: inline;
+        line-height: 30px;
+        margin-left: 6px;
+}
+#footer-bar li a {
+    color: #FFFFFF;
+}
+
+/*Others*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+</style>
 
 	<!-- Smart layer -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5230dcf3356f31fc"></script>
